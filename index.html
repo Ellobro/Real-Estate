@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- My style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Real<span>Estate</span>.</a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#produk">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="navbar-extra">
+        <div class="search-form">
+          <input type="text" id="searchInput" placeholder="Cari rumah..." />
+        </div>
+
+        <div class="shopping-cart">
+          <div class="cart-item">
+            <img src="img/menu/1.jpg.jpg" alt="Modern" />
+            <div class="item-detail">
+              <h3>Rumah Modern</h3>
+              <div class="item-price">IDR 1.5M</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img src="img/menu/2.jpg.jpg" alt="Klasik" />
+            <div class="item-detail">
+              <h3>Rumah Klasik</h3>
+              <div class="item-price">IDR 1M</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img src="img/menu/3.jpg.jpg" alt="Minimalis" />
+            <div class="item-detail">
+              <h3>Rumah Minimalis</h3>
+              <div class="item-price">IDR 700jt</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+          <div class="cart-item">
+            <img src="img/menu/5.jpg.jpg" alt="Bawah Tanah" />
+            <div class="item-detail">
+              <h3>Rumah Bawah Tanah</h3>
+              <div class="item-price">IDR 2M</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+          </div>
+        </div>
+
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navbar end -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Silahkan Dilihat <span>Rumah anda</span></h1>
+        <p>Konsep Peradaban Masa Lalu & Masa Depan</p>
+        <a href="#" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- Hero Section end -->
+
+    <!-- About Section start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span>Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/Tentang-Kami.jpg.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih Tempat kami ?</h3>
+          <p>
+            Selamat Datang Bapak/Ibu, sedang cari hunian untuk ditempati sendiri
+            atau untuk investasi? Kebetulan kami punya cluster baru yang
+            lokasinya emas banget.
+          </p>
+          <p>
+            Bayangkan Bapak/Ibu pulang kerja, aksesnya mudah karena dekat tol,
+            lingkungannya tenang, dan anak-anak aman main di taman. Ini bukan
+            cuma beli rumah, tapi beli kualitas hidup.
+          </p>
+          <p>
+            Saran saya, Ibu ambil NUP-nya dulu saja 10 juta rupiah, fully
+            refundable (bisa kembali) kalau tidak cocok. Sayang Bu, kalau minggu
+            depan harganya sudah beda.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section end -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2><span>Produk</span>Kami</h2>
+      <p>Lokasi indah / Premium.</p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/1.jpg.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Modern</h3>
+          <p class="menu-card-price">IDR 1.5M+</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/2.jpg.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Klasik</h3>
+          <p class="menu-card-price">IDR 1m+</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/3.jpg.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Minimalis</h3>
+          <p class="menu-card-price">IDR 700jt+</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/4.jpg.jpg" alt="Espresso" class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Istana</h3>
+          <p class="menu-card-price">IDR 5m+</p>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/5.jpg.jpg" alt="Espresso" !class="menu-card-img" />
+          <h3 class="menu-card-tittle">- Bawah tanah</h3>
+          <p class="menu-card-price">IDR 2m+</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section end -->
+
+    <!-- Contact Section Star -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span>Kami</h2>
+      <p>
+        Jika anda berminat untuk membeli/menyewa silahkan kirim identitas anda
+        atau silahkan pergi ke alamat yang telah dicantumkan.
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1013387.2994513372!2d113.44577689453119!3d-7.178573345352062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd9d3445c8704d1%3A0x5a2751be1dfcce84!2sPulau%20Madura!5e0!3m2!1sid!2sid!4v1764775499061!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+        <form action="">
+          <div class="input-grup">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-grup">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-grup">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No Hp" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section end -->
+
+    <!-- Footer Start  -->
+    <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/wyten0?igsh=c3g2NXAzbDAxajFq"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="https://youtube.com/@sukronmamun7556?si=Hn5w41-Y0W7DzWCg"
+          ><i data-feather="youtube"></i
+        ></a>
+        <a href="https://www.facebook.com/profile.php?id=61578893096883"
+          ><i data-feather="facebook"></i
+        ></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#produk">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">AngkaGroup</a>. &copy; 2026.</p>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <!-- Feather icons -->
+    <script>
+      feather.replace();
+    </script>
+    <!-- My javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
